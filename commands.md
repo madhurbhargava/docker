@@ -1,4 +1,5 @@
-| Command name       | Syntax     | Use    | Example  |
-| :------------- | :----------: | -----------: | ---------:   |
+| Command name       | Syntax     | Explanation    | Example  |
+| :------------- | :----------: | :-----------: | :---------:   |
 |  Info | docker info   | Get Docker System information | docker info |
-| You Can Also   | Put Pipes In | Like this |    
+|    | docker images | Get all images on the local machine | docker images |
+|    | docker run IMAGE [COMMAND] | Create container from a given image(image is specified as "repository:tag") and run it  | docker run busybox:1.33 echo "hello world" |
