@@ -13,3 +13,4 @@
 |  History  | docker history IMAGE | List intermediate image history for a specific image(specified as "repository:tag") | docker history tomcat:8.0 |
 |  Build  | docker build docker build [OPTIONS] PATH | Build an image from a Dockerfile |  docker build -t imgName:sometag . |
 |  Exec  | docker exec [OPTIONS] CONTAINER COMMAND [ARG...] | Run a command inside an already running container |  docker exec -it adf59321d5f2 bash |
+|  Network  | docker network COMMAND | Manage networks within docker |  docker network ls |
