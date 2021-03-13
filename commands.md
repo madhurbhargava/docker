@@ -5,4 +5,6 @@
 |  Run  | docker run IMAGE [COMMAND] | Create container from a given image(image is specified as "repository:tag") and run it  | docker run busybox:1.33 echo "hello world" |
 |  Pull  | docker pull IMAGE | Pull an image(image is specified as "repository:tag") hosted on docker hub | docker pull eclipse-mosquitto:2.0.9 |
 |  PS  | docker ps | List docker containers which are in running state | docker ps |
-|  PS -a  | docker -a | List ALL docker containers regardless of state | docker ps -a |
+|  PS -a  | docker ps -a | List ALL docker containers regardless of state | docker ps -a |
+|  Inspect  | docker inspect [CONTAINER ID] | List complete information of a specific container | docker inspect 6f200c88b084ac62757ca4b5fad7f9f05925202cade9e00d25bdbf8a637f4e1f |
+|  Stop  | docker stop [CONTAINER ID] | Stop a running container | docker stop 6f200c88b084ac62757ca4b5fad7f9f05925202cade9e00d25bdbf8a637f4e1f |
