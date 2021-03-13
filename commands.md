@@ -9,3 +9,4 @@
 |  Inspect  | docker inspect [CONTAINER ID] | List complete information of a specific container | docker inspect 6f200c88b084ac62757ca4b5fad7f9f05925202cade9e00d25bdbf8a637f4e1f |
 |  Stop  | docker stop [CONTAINER ID] | Stop a running container | docker stop 6f200c88b084ac62757ca4b5fad7f9f05925202cade9e00d25bdbf8a637f4e1f |
 |  History  | docker history IMAGE | List intermediate image history for a specific image(specified as "repository:tag") | docker history tomcat:8.0 |
+|  Build  | docker build docker build [OPTIONS] PATH | Buld an image from a Dockerfile |  docker build -t imgName:sometag . |
