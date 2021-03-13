@@ -1,5 +1,5 @@
 | Command name       | Syntax     | Explanation    | Example  |
-| :------------- | :----------: | :-----------: | :---------:   |
+| :-------------: | :----------: | :-----------: | :---------:   |
 |  Info | docker info   | Get Docker System information | docker info |
 |  Images  | docker images | Get all images on the local machine | docker images |
 |  Run  | docker run IMAGE [COMMAND] | Create container from a given image(image is specified as "repository:tag") and run it  | docker run busybox:1.33 echo "hello world" |
@@ -14,3 +14,4 @@
 |  Build  | docker build docker build [OPTIONS] PATH | Build an image from a Dockerfile |  docker build -t imgName:sometag . |
 |  Exec  | docker exec [OPTIONS] CONTAINER COMMAND [ARG...] | Run a command inside an already running container |  docker exec -it adf59321d5f2 bash |
 |  Network  | docker network COMMAND | Manage networks within docker |  docker network ls |
+|  Network Create | docker network create [OPTIONS] NETWORK | Create a new network within docker |  docker network create --driver bridge private_bridge_network |
